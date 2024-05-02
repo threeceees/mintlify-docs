@@ -1,91 +1,63 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "3C",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/images/icon.png",
+    "light": "/images/icon.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#CC0000",
+    "light": "#F44336",
+    "dark": "#CC0000",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#CC0000",
+      "to": "#F44336"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Email Me",
+      "url": "chunghon.liew@gmail.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/liewchunghon/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Twitter",
+      "icon": "x-twitter",
+      "url": "https://x.com/kiriragi"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/liewchunghon"
     }
+  
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
+        "extra/values",
         "development"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Ad-Hoc",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "ad-hoc/books",
+        "ad-hoc/thanks"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/kiriragi",
+    "github": "https://github.com/threeceees",
+    "linkedin": "https://www.linkedin.com/in/liewchunghon"
   }
 }
