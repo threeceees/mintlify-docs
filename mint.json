@@ -48,16 +48,16 @@
       ]
     },
     {
+      "group": "Ideas",
+      "pages": [
+        "ideas/games-operability"
+      ]
+    },
+    {
       "group": "Ad-Hoc",
       "pages": [
         "ad-hoc/books",
         "ad-hoc/thanks"
-      ]
-    },
-    {
-      "group": "Ideas",
-      "pages": [
-        "ideas/games-operability"
       ]
     }
   ],
